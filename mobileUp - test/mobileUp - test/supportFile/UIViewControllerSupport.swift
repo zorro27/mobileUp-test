@@ -12,7 +12,7 @@ extension UIViewController {
     //MARK: Alerts
     
     func createOkAction(action: Optional<() -> ()> = nil) -> UIAlertAction {
-        let okString = Strings.ok
+        let okString = "Ok"
         if let action = action {
             return UIAlertAction(title: okString, style: .default) { _ in
                 action()
@@ -37,11 +37,11 @@ extension UIViewController {
         
         if let action = retryAction {
             
-            let retryAction = UIAlertAction(title: Strings.retry, style: .default) { _ in
+            let retryAction = UIAlertAction(title: "Retry", style: .default) { _ in
                 action()
             }
             
-            let cancelAction = UIAlertAction(title: Strings.cancel, style: .cancel)
+            let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
             
             allert.addAction(retryAction)
             allert.addAction(cancelAction)
@@ -57,8 +57,8 @@ extension UIViewController {
     
     func showError() {
         errorAlert(
-            title: Strings.errorOccurred,
-            message: Strings.contactDeveloper,
+            title: "Error",
+            message: "Обратитесь к разработчику",
             retryAction: nil) {
             self.dismiss(animated: true)
         }

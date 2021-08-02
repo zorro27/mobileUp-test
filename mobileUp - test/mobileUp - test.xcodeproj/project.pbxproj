@@ -12,7 +12,6 @@
 		B10315AF26B1E1560055EA16 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10315AE26B1E1560055EA16 /* StartViewController.swift */; };
 		B10315B126B1EC910055EA16 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10315B026B1EC910055EA16 /* AuthVC.swift */; };
 		B10E3E8626B49BDA00D14A1B /* UIViewControllerSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10E3E8526B49BDA00D14A1B /* UIViewControllerSupport.swift */; };
-		B10E3E8926B49C9300D14A1B /* errorStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10E3E8826B49C9300D14A1B /* errorStrings.swift */; };
 		B146722926AF3BCD008CCBAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B146722826AF3BCD008CCBAC /* AppDelegate.swift */; };
 		B146722B26AF3BCD008CCBAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B146722A26AF3BCD008CCBAC /* SceneDelegate.swift */; };
 		B146723026AF3BCD008CCBAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B146722E26AF3BCD008CCBAC /* Main.storyboard */; };
@@ -26,7 +25,6 @@
 		B10315AE26B1E1560055EA16 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		B10315B026B1EC910055EA16 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		B10E3E8526B49BDA00D14A1B /* UIViewControllerSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerSupport.swift; sourceTree = "<group>"; };
-		B10E3E8826B49C9300D14A1B /* errorStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = errorStrings.swift; sourceTree = "<group>"; };
 		B146722526AF3BCD008CCBAC /* mobileUp - test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mobileUp - test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B146722826AF3BCD008CCBAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B146722A26AF3BCD008CCBAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				B10E3E8526B49BDA00D14A1B /* UIViewControllerSupport.swift */,
-				B10E3E8826B49C9300D14A1B /* errorStrings.swift */,
 			);
 			path = supportFile;
 			sourceTree = "<group>";
@@ -167,7 +164,6 @@
 				B146722926AF3BCD008CCBAC /* AppDelegate.swift in Sources */,
 				B10315B126B1EC910055EA16 /* AuthVC.swift in Sources */,
 				B146722B26AF3BCD008CCBAC /* SceneDelegate.swift in Sources */,
-				B10E3E8926B49C9300D14A1B /* errorStrings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
